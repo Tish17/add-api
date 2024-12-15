@@ -12,6 +12,6 @@ public class AddService {
         log.info("add() - starts with firstNumber = {} and secondNumber = {}", firstNumber, secondNumber);
         long result = firstNumber + secondNumber;
         log.info("add() - ends with result = {}", result);
-        return new AddResponse(firstNumber, secondNumber, result);
+        return new AddResponse("", firstNumber, secondNumber, result);
     }
 }
